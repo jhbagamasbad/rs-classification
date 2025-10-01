@@ -9,7 +9,7 @@ Sequence of Python Notebooks to run (first to last):
 
 NOTE:
 
-All Python Notebooks were written with the help of ChatGPT. For every step/function that was defined/written, I gave detailed descriptions of how it should function properly (e.g.: Computation for Pos1 and Pos2, Rank Score scoring system using lookup tables, etc.). I even gave examples when necessary, and I ask two or three computational questions to ensure understanding of the concept for the processes/functions.
+All Python Notebooks were written with the help of ChatGPT. The algorithms for Rank Score and Machine Learning benchmarks were formulated by the authors, but were implemented with ChatGPT assistance regarding structure and package use.  Player roles under PER and DARKO were determined by obtaining published scores by Hollinger and Medvedovsky and imposing appropriate cutoffs.
 
 
 
