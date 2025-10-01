@@ -15,14 +15,21 @@ All Python Notebooks were written with the help of ChatGPT. For every step/funct
 
 Instructions (for Windows PowerShell):
 
-1. Unzip rs-classification.zip somewhere (e.g., C:\code\rs-classification), then open Windows PowerShell in that folder.
+1. Unzip rs-classification.zip somewhere (e.g., C:\code\rs-classification), then open Windows PowerShell or Linux bash in that folder.
 2. Create and activate a virtual environment:
 
 python -m venv .venv
 .\.venv\Scripts\Activate.ps1
 
+or
+
+python -m venv .venv
+source .venv/bin/activate
+
+
 3. Install dependencies:
 
+python -m pip install --upgrade pip
 pip install -r requirements.txt
 
 4. Run pipeline:
