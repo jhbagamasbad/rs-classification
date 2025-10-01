@@ -35,6 +35,12 @@ Instructions (for Windows PowerShell):
 
         pip install -r requirements.txt
 
-4. Run pipeline:
+
+   An additional step for Linux users to install a Jupyter kernel pointing to the venv:
+
+           python -m ipykernel install --user --name rs-classification --display-name "rs-classification (venv)"
+   
+
+5. Run pipeline:
 
         python scripts/run_all.py --timeout 0
