@@ -18,20 +18,23 @@ Instructions (for Windows PowerShell):
 1. Unzip rs-classification.zip somewhere (e.g., C:\code\rs-classification), then open Windows PowerShell or Linux bash in that folder.
 2. Create and activate a virtual environment:
 
-python -m venv .venv
-.\.venv\Scripts\Activate.ps1
+        python -m venv .venv
 
-or
+        .\.venv\Scripts\Activate.ps1
 
-python -m venv .venv
-source .venv/bin/activate
+                or
+
+        python -m venv .venv
+
+        source .venv/bin/activate
 
 
 3. Install dependencies:
 
-python -m pip install --upgrade pip
-pip install -r requirements.txt
+        python -m pip install --upgrade pip
+
+        pip install -r requirements.txt
 
 4. Run pipeline:
 
-python scripts/run_all.py --timeout 0
+        python scripts/run_all.py --timeout 0
